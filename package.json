@@ -1,0 +1,25 @@
+{
+  "name": "rnw-jest",
+  "version": "1.0.0",
+  "description": "Test React Native Web with Jest snapshots",
+  "main": "index.js",
+  "author": "Joao Ribeiro",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --config ./jest.json"
+  },
+  "dependencies": {
+    "enzyme": "^3.2.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-native": "^0.50.4",
+    "react-native-web": "^0.1.14",
+    "react-test-renderer": "^16.1.1"
+  },
+  "devDependencies": {
+    "enzyme-to-json": "^3.2.2",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
