@@ -1,3 +1,9 @@
 {
-	"snapshotSerializers": [ "enzyme-to-json/serializer", "react-native-web/jest/serializer" ]
-  }
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer",
+    "react-native-web/jest/serializer"
+  ],
+  "testEnvironment": "jsdom",
+  "timers": "fake",
+  "setupFiles": ["raf/polyfill"]
+}

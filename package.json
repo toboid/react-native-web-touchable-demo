@@ -14,7 +14,8 @@
     "react-dom": "^16.1.1",
     "react-native": "^0.50.4",
     "react-native-web": "^0.1.14",
-    "react-test-renderer": "^16.1.1"
+    "react-test-renderer": "^16.1.1",
+    "raf": "3.4.0"
   },
   "devDependencies": {
     "enzyme-to-json": "^3.2.2",
